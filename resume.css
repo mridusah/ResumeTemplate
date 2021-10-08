@@ -1,0 +1,44 @@
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex1 {
+    display: flex;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: gray;
+    margin-left: 45px;
+    margin-right: 45px;
+
+}
+
+/* .flex2{
+    display: inline-flex;
+    margin-left: 6px;
+    /* margin-right: 200px; */
+    /* justify-items: left;
+} */ 
+
+.grey {
+    color: grey;
+}
+
+.blue {
+    color: rgb(80, 80, 255);
+}
+
+.heading {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text_para {
+    /* font-family: 'Poppins'; */
+    color: rgb(139, 136, 136);
+}
+
+@media (max-width: 810px) {
+    .flex1 {
+        display: block;
+    }
+  }
