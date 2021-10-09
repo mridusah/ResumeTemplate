@@ -37,8 +37,19 @@
     color: rgb(139, 136, 136);
 }
 
-@media (max-width: 810px) {
+@media (max-width: 320px) {
     .flex1 {
         display: block;
+
     }
+  }
+
+  .wrapper
+  {
+    border-style: solid; 
+    border-color: rgb(228, 227, 227); 
+    padding-top: 20px; 
+    width: 1000px; 
+    margin-left: 16%; 
+    margin-top: 100px;
   }
